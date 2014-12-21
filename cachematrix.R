@@ -3,7 +3,7 @@
 
 ## Write a short comment describing this function
 
-makeMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
         set <- function(y) {
                 x <<- y
